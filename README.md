@@ -6,4 +6,6 @@ The project ‘Waterpark Website’ is a website about a dummy waterpark by the 
 
 The waterpark website also enables customers to reserve their day, i.e., book tickets to visit the waterpark via online mode through the website. Also, if the customers want to cancel their booking, they can do it on the website too. The website provides a reliable, easy and secure gateway to make payment for the product they ordered by Online Payment and Internet Banking facility. Also, the customer can get email updates of their transactions.
 
-P. S. The images used are taken from Google and might be licensable. If you have any issues, please contact on my email- kunaldhanawade7@gmail.com. Thank you.
+P. S. The images used are taken from Google and might be licensable. If you have any issues, please feel free to contact me through my email- kunaldhanawade7@gmail.com. 
+
+Thank you.
