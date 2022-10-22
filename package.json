@@ -1,7 +1,7 @@
 {
-  "name": "sem_5_mini_project",
+  "name": "Waterpark Website by Kunal Dhanawade",
   "version": "1.0.0",
-  "description": "This project is made by Kunal Dhanawade, a student of Shivajirao S. Jondhale College of Engineering",
+  "description": "This project is made by Kunal Dhanawade, a student of Shivajirao S. Jondhale College of Engineering, as the Semester V mini project.",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
