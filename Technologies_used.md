@@ -1,4 +1,4 @@
-Technologies explain in this file are : * HTML * , * CSS * , * MONGO DB * :
+Technologies explain in this file are : * HTML * , * CSS * , * MONGO DB *, - * JAVASCRIPT *, * NODE JS *, * EXPRESS JS * = 
 
 *________________________________________________________________________________HTML______________________________________________________________________________________*
 
@@ -109,5 +109,108 @@ Find all documents that have a category of "news".
 db.posts.find( {category: "News"} )
 
 Reference link: https://www.w3schools.com/mongodb/
+  
+  
+*_________________________________________________________________________JAVASCRIPT______________________________________________________________________________________*
 
 
+JavaScript Tutorial
+JavaScript is the world's most popular programming language.
+
+JavaScript is the programming language of the Web.
+
+JavaScript is easy to learn.
+
+This tutorial will teach you JavaScript from basic to advanced.
+ 
+ Why Study JavaScript?
+JavaScript is one of the 3 languages all web developers must learn:
+
+   1. HTML to define the content of web pages
+
+   2. CSS to specify the layout of web pages
+
+   3. JavaScript to program the behavior of web pages
+
+This tutorial covers every version of JavaScript:
+
+The Original JavaScript ES1 ES2 ES3 (1997-1999)
+The First Main Revision ES5 (2009)
+The Second Revision ES6 (2015)
+All Yearly Additions (2016, 2017, 2018, 2019, 2020)
+  
+Reference link: https://www.w3schools.com/js/DEFAULT.asp
+  
+*_________________________________________________________________________NODE JS______________________________________________________________________________________*
+  
+ 
+Node.js Tutorial
+Node.js is an open source server environment.
+
+Node.js allows you to run JavaScript on the server.
+
+Learning by Examples
+Our "Show Node.js" tool makes it easy to learn Node.js, it shows both the code and the result.
+
+Example
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(8080);
+
+ Examples Running in the Command Line Interface
+In this tutorial there will be some examples that are better explained by displaying the result in the command line interface.
+
+When this happens, The "Show Node.js" tool will show the result in a black screen on the right:
+
+Example
+console.log('This example is different!');
+console.log('The result is displayed in the Command Line Interface');
+Click on the "Run example" button to see how it works.
+
+My Learning
+Track your progress with the free "My Learning" program here at W3Schools.
+
+Log into your account, and start earning points!
+
+This is an optional feature. You can study W3Schools without using My Learning.
+
+Node.js Reference
+Node.js has a set of built-in modules.
+
+Built-in Modules
+
+Reference link: https://www.w3schools.com/nodejs/
+ 
+  
+*_________________________________________________________________________EXPRESS JS______________________________________________________________________________________*
+  
+
+Express.js Tutorial
+Express.js tutorial provides basic and advanced concepts of Express.js. Our Express.js tutorial is designed for beginners and professionals both.
+
+Express.js is a web framework for Node.js. It is a fast, robust and asynchronous in nature.
+
+Our Express.js tutorial includes all topics of Express.js such as Express.js installation on windows and linux, request object, response object, get method, post method, cookie management, scaffolding, file upload, template etc.
+
+What is Express.js
+Express is a fast, assertive, essential and moderate web framework of Node.js. You can assume express as a layer built on the top of the Node.js that helps manage a server and routes. It provides a robust set of features to develop web and mobile applications.
+  
+  Let's see some of the core features of Express framework:
+
+It can be used to design single-page, multi-page and hybrid web applications.
+It allows to setup middlewares to respond to HTTP Requests.
+It defines a routing table which is used to perform different actions based on HTTP method and URL.
+It allows to dynamically render HTML Pages based on passing arguments to templates.
+Why use Express
+Ultra fast I/O
+Asynchronous and single threaded
+MVC like structure
+Robust API makes routing easy
+  
+Reference link: https://www.javatpoint.com/expressjs-tutorial
+  
+ 
+ 
