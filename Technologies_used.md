@@ -1,4 +1,6 @@
-Technologies explain in this file are : * HTML * , * CSS * , * MONGO DB *, - * JAVASCRIPT *, * NODE JS *, * EXPRESS JS * = 
+Technologies explain in this file are : * HTML * , * CSS * , * MONGO DB *,
+                                        * JAVASCRIPT *, * NODE JS *, * EXPRESS JS *,
+                                        * NODEMON *, * NODE MAILER *, * RAZORPAY * 
 
 *________________________________________________________________________________HTML______________________________________________________________________________________*
 
@@ -212,5 +214,97 @@ Robust API makes routing easy
   
 Reference link: https://www.javatpoint.com/expressjs-tutorial
   
+  
+  
+*_________________________________________________________________________NODEMON_________________________________________________________________________________________*
+  nodemon
+nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script.
  
+Installation
+Either through cloning with git or by using npm (the recommended way):
+
+npm install -g nodemon # or using yarn: yarn global add nodemon
+And nodemon will be installed globally to your system path.
+
+You can also install nodemon as a development dependency:
+
+npm install --save-dev nodemon # or using yarn: yarn add nodemon -D
+With a local installation, nodemon will not be available in your system path or you can't use it directly from the command line. Instead, the local installation of nodemon can be run by calling it from within an npm script (such as npm start) or using npx nodemon.
+
+Usage
+nodemon wraps your application, so you can pass all the arguments you would normally pass to your app:
+
+nodemon [your node app]
+For CLI options, use the -h (or --help) argument:
+
+nodemon -h
+Using nodemon is simple, if my application accepted a host and port as the arguments, I would start it as so:
+
+nodemon ./server.js localhost 8080
+Any output from this script is prefixed with [nodemon], otherwise all output from your application, errors included, will be echoed out as expected.
+
+You can also pass the inspect flag to node through the command line as you would normally:
+
+nodemon --inspect ./server.js 80
+If you have a package.json file for your app, you can omit the main script entirely and nodemon will read the package.json for the main property and use that value as the app (ref).
+
+nodemon will also search for the scripts.start property in package.json (as of nodemon 1.1.x).
+  
+  
+  Reference link: https://www.npmjs.com/package/nodemon
+  
+  
+ *_______________________________________________________________________NODE MAILER______________________________________________________________________________________*
+  
+  The Nodemailer Module
+The Nodemailer module makes it easy to send emails from your computer.
+
+The Nodemailer module can be downloaded and installed using npm:
+
+C:\Users\Your Name>npm install nodemailer
+After you have downloaded the Nodemailer module, you can include the module in any application:
+
+var nodemailer = require('nodemailer');
+Send an Email
+Now you are ready to send emails from your server.
+
+Use the username and password from your selected email provider to send an email.
+  
+  Reference link: https://www.w3schools.com/nodejs/nodejs_email.asp
+  
+  
+*_________________________________________________________________________RAZORPAY________________________________________________________________________________________*
+ 
+  What is Razorpay?
+Razorpay is the in-between mode of payment which transact the payments to the other banks which are connected and available in all kinds of banks, credit, debit, wallets (Netflix, Airtel, Swiggy, and others).
+
+Razorpay subscription also brings with it the useful feature of UPI autopay, nowadays transactions via cards are decreasing day by day due to digital payments. It helps in registered business also where payments get easier for others from different apps. After the pandemic and big break from the direct interaction, people have started to get more comfortable in digital payments where all the business has got a lot of upstream.
+
+This platform of digital payment makes a link between many other apps in which one of the levels is crossed by Razorpay. Apart from the payment gateway, it provides more other benefits to the customers like Razorpay provides where it provides the merchant to automate bank transfer, invoices, and the account for the payroll.
+
+Razorpay capital provides a loan for the business to avoid your cash flow. It benefits all the small business and cashier flow for the people. It helps businesses to make their market place and make available working capital rolls. Now if we come how does it work?
+  
+  
+How does Razorpay Work?
+Razorpay makes payment convenient for others through different transaction mode if we discuss in normal terms as the Razorpay app first transact the money from the authorised bank with all details after that it provides that amount to the digital marketing app so when the user starts online payment the marketing app get the money from the Razorpay app this how digitally it makes flow. Now Razorpay provides service of loans also for small businesses to grow and lend money to avoid the cashier flow, they help in small business-like freelancers, entrepreneurs, enterprises and other businesses.
+
+Mostly this Razorpay is freely used in India and companies like India Mart intermesh limited, Ample technologies, Brio technologies private limited, Savari car rentals Private limited. While using a Razorpay account a person can receive transactions from the customers online to activate your Razorpay account. Following are the processes that have to be followed to activate your account in Razorpay. It just takes a few minutes from your clock to enjoy your Hassle free transaction.
+  
+Standard Plan
+Login into your Razorpay account to access your dashboard, click on the activate account option in the menu panel, for business purpose you have to fill in some details regarding it like your business type, full business name, billing label, your identification proof, website/app, etc. after providing all the details click on the activate account.
+
+Another beneficiary plans are there for customers who plan for their business purpose. The first one is The Standard Plan. This plan mostly works for small business start-ups. It takes 2% transaction fee + GST on every transaction made by the consumer from its credit, debit, wallets like UPI, airtel app, etc. 3% transaction + GST on every transaction made using diners and AMEX cards, other international cards and business credits.
+
+Enterprise Plan
+The other plan is The Enterprise Plan this plan mostly available for the business those who are based on daily transaction bases for this type of plan the Razorpay pay provide little bit more facilities like it provide 24x7 priority support, plan activation in 24 hours and an account manager for a separate account who can give instant support to the individual account, besides the nominal charges it does not take any charges for setting up free or annual maintenance charges. Making it a widely used payment gateway in India.
+
+There are many different reasons to use Razorpay because it lent capital for your start-ups without an exchange it or any collateral or personal guarantees according to your business only it provides you that kind of facilities like your own account manager for an individual account, time updated and help service according to your account needs, it does not require any type of arrears.
+  
+Bottom Line
+Choosing Razorpay will not lend you any kind of disadvantage. Every type of generation can have a chance to stand in the market now and have back support with Razorpay to prove themselves. Apart from people, it has made each one of our lives easier in the digital world for payment support. After the big crises in the pandemic our nation has been more updated with such type of companies.
+  
+  
+ Reference link: https://www.quora.com/What-is-Razorpay
  
