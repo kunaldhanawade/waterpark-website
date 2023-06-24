@@ -6,7 +6,7 @@
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [License](#license)
 
 ## Introduction
